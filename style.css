@@ -1,8 +1,14 @@
+@font-face {
+    font-family: 'aniket';
+    src: url('./fonts/Norse-Bold.otf') format('woff');
+  }
+
 body{
     padding: 0;
     margin: 0;
     height: 100dvh;
     background-color: black;
+    overflow: auto;
 }
 .bg-img{
     width: 50%; /* Adjust as needed for half the screen */
@@ -10,6 +16,24 @@ body{
     overflow: hidden;
     position: fixed;
     left: 20vh;
+}
+
+.upper-img{
+    position: fixed;
+    left: 15%;
+    overflow: hidden;
+    top: 30%;
+    opacity: 0.9;
+    background-color: rgb(72, 72, 72);
+}
+.upper-img p{
+    color: white;
+    font-size: 100px; /* Adjust the font size */
+    position: fixed;
+    top: 20%;
+    left: 20%;
+    font-family: 'aniket';
+    position: fixed;
 }
 
 .bg-img img {
@@ -23,8 +47,10 @@ body{
     top: 0;
     left: 74vh;
     width: 45%; 
-    height: 100vh;
+    height: 100%;
     background-color: rgb(237, 237, 237);
+    overflow: auto;
+    text-wrap: wrap;
 }
 .white-area p{
     font-family: 'Raleway', sans-serif;
