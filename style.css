@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&family=Oswald:wght@500&family=Raleway:wght@300;600&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    height: 100dvh;
+    background-color: black;
+}
+.bg-img{
+    width: 50%; /* Adjust as needed for half the screen */
+    height: 100%; /* Full height of the viewport */
+    overflow: hidden;
+    position: fixed;
+    left: 20vh;
+}
+
+.bg-img img {
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+    object-fit: cover; /* Maintain aspect ratio and cover entire container */
+  }
+
+.white-area{
+    position: fixed;
+    top: 0;
+    left: 74vh;
+    width: 45%; 
+    height: 100vh;
+    background-color: white;
+}
+.white-area p{
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: larger;
+    font-weight: 700;
+    padding-left: 45px;
+    margin-top: 170px;
+    padding-right: 230px;
+    line-height: 30px;
+    word-spacing: 2px;
+    word-wrap: break-word;
+}
